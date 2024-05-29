@@ -79,7 +79,7 @@ export default function ProductList() {
         }).catch(error => {
             console.error('Error adding product to cart:', error);
             setError('Product added to cart well. You can check your cart now.');
-            navigate('/UserDashboard');
+            // navigate('/UserDashboard');
         });
     };
 

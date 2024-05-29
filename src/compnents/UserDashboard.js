@@ -19,7 +19,7 @@ const UserDashboard = () => {
             <FaListAlt style={styles.icon} />
             <span>Add To Cart</span>
           </li>
-          <li style={styles.listItem} onClick={() => navigate('/logout')}>
+          <li style={styles.listItem} onClick={() => navigate('/log')}>
             <FaSignOutAlt style={styles.icon} />
             <span>Log Out</span>
           </li>

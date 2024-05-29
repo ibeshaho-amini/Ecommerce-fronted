@@ -38,14 +38,14 @@ function App() {
             <Route path="dashboard" element={<ProductList />} />
             <Route path="products" element={<ProductList />} />
             <Route path="orders" element={<OrderList />} />
-            <Route path="logout" element={<Login />} />
+            <Route path="logout" element={''} />
             <Route path="product" element={<Product />} />
        </Route>
           
        <Route path="/" element={<UserDashboard />}>
           <Route path="Carts" element={<CartList />} />
           <Route path="cartss" element={<ClientSide />} />
-          <Route path="logout" element={<Login />} />
+          <Route path="log" element={<Appbar />} />
         </Route>
       </Routes>
       
